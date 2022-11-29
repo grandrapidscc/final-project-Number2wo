@@ -8,10 +8,10 @@ namespace CIS129FinalProject
 {
     public class Hero
     {
-        private string _heroName;
-        private string _heroType;
-        private int _heroHealth;
-        private int _heroMana;
+        public static string _heroName;
+        public static string _heroType;
+        public static int _heroHealth;
+        public static int _heroMana;
 
         
         public Hero(string _heroName, string _heroType, int _heroHealth, int _heroMana)
