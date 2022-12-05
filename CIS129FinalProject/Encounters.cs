@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CIS129FinalProject
 {
-    internal class Encounters
+    public class Encounters
     {
     }
 }
