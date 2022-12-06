@@ -8,19 +8,31 @@ namespace CIS129FinalProject
 {
     public class Hero
     {
-        private string _heroName;
-        private string _heroType;
-        private int _heroHealth;
-        private int _heroMana;
+        public static string _heroName;
+        public static string _heroType;
+        public static int _heroHealth;
+        public static int _heroMana;
+        public string _heroName;
+        public string _heroType;
+        public int _heroHealth;
+        public int _heroMana;
+
+
 
         
         public Hero(string heroName, string heroType, int heroHealth, int heroMana)
         {
+            _heroName = _heroName;
+            _heroType = _heroType;
+            _heroHealth = _heroHealth;
+            _heroMana = _heroMana;
+        } 
             _heroName = heroName;
             _heroType = heroType;
             _heroHealth = heroHealth;
             _heroMana = heroMana;
         }
+
 
 
         public void Fireball()    //does 5 dmg to enemy
@@ -59,6 +71,7 @@ namespace CIS129FinalProject
         {
             Console.WriteLine("The Wizert attempts to flee from the battle.");
         }
+
         
         public void TakeBodySlamDmg()  //goblin attack hits Wizert
         {
@@ -90,6 +103,7 @@ namespace CIS129FinalProject
             }
         }
 
+        public void TakeScreechDmg() //banshee attack hits Wizert
         public void TakeScreechDmg()
         {
             _heroHealth -= 5;

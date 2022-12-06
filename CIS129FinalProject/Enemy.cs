@@ -8,10 +8,17 @@ namespace CIS129FinalProject
 {
      public class Enemy
     {
-        private string _enemyName;
-        private string _enemyType;
-        private int _enemyHealth;
-        private int _enemyMana;
+<<<<<<< Updated upstream
+        public static string _enemyName;
+        public static string _enemyType;
+        public static int _enemyHealth;
+        public static int _enemyMana;
+=======
+        public string _enemyName;
+        public string _enemyType;
+        public int _enemyHealth;
+        public int _enemyMana;
+>>>>>>> Stashed changes
 
         public Enemy(string enemyName, string enemyType, int enemyHealth, int enemyMana)
         {

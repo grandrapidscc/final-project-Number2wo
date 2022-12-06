@@ -6,6 +6,14 @@ using System.Threading.Tasks;
 
 namespace CIS129FinalProject
 {
+    public class Encounters
+    {
+    public static class Encounters
+    {
+        public static void Encounter()
+        {
+            Console.WriteLine("The Wizert has encountered an enemy!");
+            Console.WriteLine($"The Wizert has {Hero._heroHealth} health left.");
     internal class Encounters
     {
         public void Encounter()
@@ -23,6 +31,7 @@ namespace CIS129FinalProject
             switch (userChoice)
             {
                 case "1":
+                    WizertAbilities.Fireball();
                     Hero.Fireball();
                     break;
                 case "2":
@@ -35,6 +44,9 @@ namespace CIS129FinalProject
                     Console.WriteLine("Invalid choice.");
                     break;
             }
+            
+            
+        }
         }
     }
 }
