@@ -8,15 +8,7 @@ namespace CIS129FinalProject
 {
     public class Encounters
     {
-    public static class Encounters
-    {
-        public static void Encounter()
-        {
-            Console.WriteLine("The Wizert has encountered an enemy!");
-            Console.WriteLine($"The Wizert has {Hero._heroHealth} health left.");
-    internal class Encounters
-    {
-        public void Encounter()
+        public static void encounterEnemy()
         {
             Console.WriteLine("The Wizert has encountered an enemy!");
             Console.WriteLine("The Wizert has " + Hero._heroHealth + " health left.");
@@ -32,21 +24,18 @@ namespace CIS129FinalProject
             {
                 case "1":
                     WizertAbilities.Fireball();
-                    Hero.Fireball();
                     break;
                 case "2":
-                    Hero.Heal();
+                    WizertAbilities.Heal();
                     break;
                 case "3":
-                    Hero.Flee();
+                    WizertAbilities.Flee();
                     break;
                 default:
                     Console.WriteLine("Invalid choice.");
                     break;
-            }
-            
-            
+            }  
         }
-        }
+        
     }
 }
