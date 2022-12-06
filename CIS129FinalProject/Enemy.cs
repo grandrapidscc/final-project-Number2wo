@@ -20,12 +20,12 @@ namespace CIS129FinalProject
         public int _enemyMana;
 >>>>>>> Stashed changes
 
-        public Enemy(string _enemyName, string _enemyType, int _enemyHealth, int _enemyMana)
+        public Enemy(string enemyName, string enemyType, int enemyHealth, int enemyMana)
         {
-            _enemyName = _enemyName;
-            _enemyType = _enemyType;
-            _enemyHealth = _enemyHealth;
-            _enemyMana = _enemyMana;
+            _enemyName = enemyName;
+            _enemyType = enemyType;
+            _enemyHealth = enemyHealth;
+            _enemyMana = enemyMana;
         }
     }
 }

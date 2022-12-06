@@ -14,7 +14,6 @@ namespace CIS129FinalProject
         {
             Console.WriteLine("The Wizert is in the starting location.");
             
-            
 
         }
     }

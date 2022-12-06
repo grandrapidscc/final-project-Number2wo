@@ -6,16 +6,20 @@ using System.Threading.Tasks;
 
 namespace CIS129FinalProject
 {
-<<<<<<< Updated upstream
     public class Encounters
     {
-=======
     public static class Encounters
     {
         public static void Encounter()
         {
             Console.WriteLine("The Wizert has encountered an enemy!");
             Console.WriteLine($"The Wizert has {Hero._heroHealth} health left.");
+    internal class Encounters
+    {
+        public void Encounter()
+        {
+            Console.WriteLine("The Wizert has encountered an enemy!");
+            Console.WriteLine("The Wizert has " + Hero._heroHealth + " health left.");
             Console.WriteLine("The Wizert has " + Hero._heroMana + " mana left.");
             Console.WriteLine("The enemy has " + Enemy._enemyHealth + " health left.");
             Console.WriteLine("The enemy has " + Enemy._enemyMana + " mana left.");
@@ -28,6 +32,7 @@ namespace CIS129FinalProject
             {
                 case "1":
                     WizertAbilities.Fireball();
+                    Hero.Fireball();
                     break;
                 case "2":
                     Hero.Heal();
@@ -42,6 +47,6 @@ namespace CIS129FinalProject
             
             
         }
->>>>>>> Stashed changes
+        }
     }
 }
