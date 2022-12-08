@@ -16,6 +16,7 @@ namespace CIS129FinalProject
             int enemyMana) : base(enemyName, enemyType, enemyHealth, enemyMana)
         {
         }
+        private readonly Orc Orc1 = new Orc("Orc", "Orc", 10, 0);
 
         public void attack()
         {

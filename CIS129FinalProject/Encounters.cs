@@ -14,7 +14,6 @@ namespace CIS129FinalProject
             Console.WriteLine("The Wizert has " + Hero._heroHealth + " health left.");
             Console.WriteLine("The Wizert has " + Hero._heroMana + " mana left.");
             Console.WriteLine("The enemy has " + Enemy._enemyHealth + " health left.");
-            Console.WriteLine("The enemy has " + Enemy._enemyMana + " mana left.");
             Console.WriteLine("What will the Wizert do?");
             Console.WriteLine("1. Cast Fireball");
             Console.WriteLine("2. Cast Heal");

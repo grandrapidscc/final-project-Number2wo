@@ -13,15 +13,13 @@ namespace CIS129FinalProject
         public static int _heroHealth;
         public static int _heroMana;
 
-
-
         
         public Hero(string heroName, string heroType, int heroHealth, int heroMana)
         {
-            _heroName = _heroName;
-            _heroType = _heroType;
-            _heroHealth = _heroHealth;
-            _heroMana = _heroMana;
+            _heroName = heroName;
+            _heroType = heroType;
+            _heroHealth = heroHealth;
+            _heroMana = heroMana;
         }
     }
 }

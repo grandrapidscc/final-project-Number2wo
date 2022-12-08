@@ -15,6 +15,7 @@ namespace CIS129FinalProject
             int enemyMana) : base(enemyName, enemyType, enemyHealth, enemyMana)
         {
         }
+        
 
         public void attack()
         {
