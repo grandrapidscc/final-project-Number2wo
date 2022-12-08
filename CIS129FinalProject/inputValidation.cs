@@ -8,23 +8,23 @@ namespace CIS129FinalProject
 {
     public class inputValidation
     {
-        public bool encounterChoice()
+        public static bool encounterEnemy()
         {
             {
                 var userChoice = Console.ReadLine();
                 switch (userChoice)
                 {
                     case "1":
-                        Hero.Fireball();
+                        WizertAbilities.Fireball();
                         return true;
                     case "2":
-                        Hero.Heal();
+                        WizertAbilities.Heal();
                         return true;
                     case "3":
-                        Hero.Flee();
+                        WizertAbilities.Flee();
                         return true;
                     default:
-                        Console.WriteLine("Invalid choice.");
+                        Console.WriteLine("Invalid choice. Please choose 1, 2, or 3.");
                         return false;
                 }
             }

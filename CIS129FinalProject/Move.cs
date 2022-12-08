@@ -34,22 +34,22 @@ namespace CIS129FinalProject
                     Console.WriteLine("Invalid choice.");
                     break;
             }
-            if (userChoice == "1")
-            {
-                WizertLocation.WizertNorthLocation();
-            }
-            else if (userChoice == "2")
-            {
-                WizertLocation.WizertSouthLocation();
-            }
-            else if (userChoice == "3")
-            {
-                WizertLocation.WizertWestLocation();
-            }
-            else if (userChoice == "4")
-            {
-                WizertLocation.WizertEastLocation();
-            }
+          // if (userChoice == "1")
+          // {
+          //     WizertLocation.WizertNorthLocation();
+          // }
+          // else if (userChoice == "2")
+          // {
+          //     WizertLocation.WizertSouthLocation();
+          // }
+          // else if (userChoice == "3")
+          // {
+          //     WizertLocation.WizertWestLocation();
+          // }
+          // else if (userChoice == "4")
+          // {
+          //     WizertLocation.WizertEastLocation();
+          // }
         }
 
     }

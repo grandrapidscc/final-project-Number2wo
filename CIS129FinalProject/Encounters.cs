@@ -19,22 +19,24 @@ namespace CIS129FinalProject
             Console.WriteLine("1. Cast Fireball");
             Console.WriteLine("2. Cast Heal");
             Console.WriteLine("3. Flee");
-            var userChoice = Console.ReadLine();
-            switch (userChoice)
-            {
-                case "1":
-                    WizertAbilities.Fireball();
-                    break;
-                case "2":
-                    WizertAbilities.Heal();
-                    break;
-                case "3":
-                    WizertAbilities.Flee();
-                    break;
-                default:
-                    Console.WriteLine("Invalid choice.");
-                    break;
-            }  
+            inputValidation.encounterEnemy();
+            
+            //var userChoice = Console.ReadLine();
+            //switch (userChoice)
+            //{
+            //    case "1":
+            //        WizertAbilities.Fireball();
+            //        break;
+            //    case "2":
+            //        WizertAbilities.Heal();
+            //        break;
+            //    case "3":
+            //        WizertAbilities.Flee();
+            //        break;
+            //    default:
+            //        Console.WriteLine("Invalid choice.");
+            //        break;
+            //}  
         }
         
     }
