@@ -13,8 +13,6 @@ namespace CIS129FinalProject
         public void WizertStartingLocation()
         {
             Console.WriteLine("The Wizert is in the starting location.");
-            
-
         }
     }
 }
