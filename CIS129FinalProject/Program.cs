@@ -13,7 +13,7 @@ class Program
         Enemy Banshee = new Enemy("Banshee", "Banshee", 8, 0);
         Hero Wizert = new Hero("Wizert", "Sorcerer", 100, 200);
 
-        Map.RandomLocation();
+        WizertLocation.startingLocation();
 
 
 

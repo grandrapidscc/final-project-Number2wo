@@ -9,10 +9,13 @@ namespace CIS129FinalProject
 {
     public class WizertLocation
     {
-
-        public void WizertStartingLocation()
+        public static void startingLocation()
         {
-            Console.WriteLine("The Wizert is in the starting location.");
+            Random random = new Random();
+            int x = random.Next(0, 5);
+            int y = random.Next(0, 5);
+            int[] startingLocation = { x, y };
+            Console.WriteLine($"The Wizert is in location ({x}, {y})");
         }
     }
 }

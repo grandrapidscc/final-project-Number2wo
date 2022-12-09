@@ -24,7 +24,7 @@ namespace CIS129FinalProject
             map[1, 4] = 10;
             map[2, 0] = 11;
             map[2, 1] = 12;
-            map[2, 2] = 13;
+            map[2, 2] = 13; 
             map[2, 3] = 14;
             map[2, 4] = 15;
             map[3, 0] = 16;
@@ -37,15 +37,6 @@ namespace CIS129FinalProject
             map[4, 2] = 23;
             map[4, 3] = 24;
             map[4, 4] = 25;
-        }
-
-        
-        public static void RandomLocation()
-        {
-            Random random = new Random();
-            int x = random.Next(0, 5);
-            int y = random.Next(0, 5);
-            Console.WriteLine("The Wizert is in location " + map[x, y]);
         }
     }
 }
