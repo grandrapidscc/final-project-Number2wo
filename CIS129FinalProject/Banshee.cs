@@ -11,8 +11,7 @@ namespace CIS129FinalProject
         public Banshee(
             string enemyName, 
             string enemyType, 
-            int enemyHealth, 
-            int enemyMana) : base(enemyName, enemyType, enemyHealth, enemyMana)
+            int enemyHealth) : base(enemyName, enemyType, enemyHealth)
         {
         }
 

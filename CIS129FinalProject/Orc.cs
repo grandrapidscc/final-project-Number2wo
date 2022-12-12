@@ -12,11 +12,9 @@ namespace CIS129FinalProject
         public Orc(
             string enemyName, 
             string enemyType, 
-            int enemyHealth, 
-            int enemyMana) : base(enemyName, enemyType, enemyHealth, enemyMana)
+            int enemyHealth) : base(enemyName, enemyType, enemyHealth)
         {
         }
-        private readonly Orc Orc1 = new Orc("Orc", "Orc", 10, 0);
 
         public void attack()
         {

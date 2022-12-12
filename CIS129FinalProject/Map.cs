@@ -36,7 +36,7 @@ namespace CIS129FinalProject
             map[4, 1] = 22;
             map[4, 2] = 23;
             map[4, 3] = 24;
-            map[4, 4] = 25;
+            map[4, 4] = 25; 
         }
         
     }
