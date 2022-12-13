@@ -19,7 +19,7 @@ namespace CIS129FinalProject
             switch (userChoice)
             {
                 case "1":
-                    Console.WriteLine("The Wizert has moved North.");
+                    Console.WriteLine("The Wizert has moved North.");      
                     break;
                 case "2":
                     Console.WriteLine("The Wizert has moved South.");
@@ -34,23 +34,6 @@ namespace CIS129FinalProject
                     Console.WriteLine("Invalid choice.");
                     break;
             }
-            if (userChoice == "1")
-            {
-                WizertLocation.WizertNorthLocation();
-            }
-            else if (userChoice == "2")
-            {
-                WizertLocation.WizertSouthLocation();
-            }
-            else if (userChoice == "3")
-            {
-                WizertLocation.WizertWestLocation();
-            }
-            else if (userChoice == "4")
-            {
-                WizertLocation.WizertEastLocation();
-            }
         }
-
     }
 }
