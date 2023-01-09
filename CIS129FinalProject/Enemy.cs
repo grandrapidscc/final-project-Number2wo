@@ -8,17 +8,15 @@ namespace CIS129FinalProject
 {
      public class Enemy
     {
-        private string _enemyName;
-        private string _enemyType;
-        private int _enemyHealth;
-        private int _enemyMana;
+        public static string _enemyName;
+        public static string _enemyType;
+        public static int _enemyHealth;
 
-        public Enemy(string enemyName, string enemyType, int enemyHealth, int enemyMana)
+        public Enemy(string enemyName, string enemyType, int enemyHealth)
         {
             _enemyName = enemyName;
             _enemyType = enemyType;
             _enemyHealth = enemyHealth;
-            _enemyMana = enemyMana;
         }
     }
 }
