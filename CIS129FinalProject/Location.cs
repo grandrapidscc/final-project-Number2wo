@@ -37,13 +37,21 @@ namespace CIS129FinalProject
             return wizertLocation;
         }
 
+        public static int[] newWizertLocation = startingLocation();
+
+        public static void setWizertLocation(int row, int column)
+        {
+            newWizertLocation[0] = row;
+            newWizertLocation[1] = column;
+        }
+
         public static void incrementNorth(int[] wizertLocation)
         {
             int row = wizertLocation[0];
             int column = wizertLocation[1];
             if (row > 0 && row < 4 && column > 0 && column < 4)
             {
-                wizertLocation[0] = wizertLocation[0] -= 1;
+                newWizertLocation[0] = wizertLocation[0] -= 1;
                 //return wizertLocation;
                 {
                     Console.WriteLine("The Wizert has moved North");

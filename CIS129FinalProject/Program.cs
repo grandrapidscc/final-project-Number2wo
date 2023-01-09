@@ -26,7 +26,7 @@ Hero Wizert = new Hero("Wizert", "Sorcerer", 100, 200);
 Console.WriteLine(wizertLocation[0]);
 Console.WriteLine(wizertLocation[1]);
 Location.MoveWizert();
-Console.WriteLine(wizertLocation[0]);
-Console.WriteLine(wizertLocation[1]);
+Console.WriteLine(Location.newWizertLocation[0]);
+Console.WriteLine(Location.newWizertLocation[1]);
 
 
